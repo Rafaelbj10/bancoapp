@@ -35,8 +35,7 @@ public class Cliente {
     @Size(max = 255)
     private String email;
 
-    /*@OneToOne(mappedBy = "Conta")
-    private Conta contaBancaria;*/
+
 
     public Cliente() {
     }
